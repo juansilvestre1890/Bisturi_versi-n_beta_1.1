@@ -1,0 +1,113 @@
+{
+  "original": {
+    "triangles": 1499796,
+    "vertices": 749874,
+    "boundary": 0,
+    "nonManifold": 0,
+    "winding": 0,
+    "degenerate": 0,
+    "volume": 0.17940940986839002,
+    "components": 1,
+    "componentVolumes": [
+      0.17940940986839002
+    ],
+    "closed": true
+  },
+  "parts": [
+    {
+      "triangles": 713160,
+      "vertices": 356578,
+      "boundary": 0,
+      "nonManifold": 0,
+      "winding": 0,
+      "degenerate": 0,
+      "volume": 0.08507622016263208,
+      "components": 2,
+      "componentVolumes": [
+        0.08491440351246234,
+        0.00016181665016960824
+      ],
+      "closed": true
+    },
+    {
+      "triangles": 810788,
+      "vertices": 405374,
+      "boundary": 0,
+      "nonManifold": 0,
+      "winding": 0,
+      "degenerate": 0,
+      "volume": 0.09433318970502999,
+      "components": 1,
+      "componentVolumes": [
+        0.09433318970502999
+      ],
+      "closed": true
+    }
+  ],
+  "contours": 3,
+  "domains": 2,
+  "holes": 1,
+  "cutTriangles": 4437,
+  "unchangedTriangles": 1495359,
+  "unchangedExteriorAreaRatio": 0.9966941147170336,
+  "capTriangles": 7639,
+  "relativeVolumeError": 4.057454300781107e-12,
+  "containment": {
+    "samples": 27355,
+    "sampleKinds": {
+      "vertices": 6039,
+      "edges": 13677,
+      "centroids": 7639
+    },
+    "nearBoundary": 9049,
+    "nearByEuclidean": 63,
+    "tolerance": 9.957000017166138e-07,
+    "maxOutsideDistance": 0,
+    "exhaustive": false,
+    "refinement": {
+      "passes": 1,
+      "splitEdges": 1,
+      "splitFaces": 0,
+      "addedVertices": 1,
+      "boundaryPreserved": true
+    }
+  },
+  "checks": {
+    "closed": true,
+    "winding": true,
+    "volume": true,
+    "hiddenFaceCrossings": true,
+    "projectedBoundaryCrossings": true
+  },
+  "limits": [
+    "La cuádrica aproxima la selección; no sigue un contorno arbitrario.",
+    "No se certifican todas las autointersecciones ni la imprimibilidad."
+  ],
+  "selectionFit": {
+    "evaluated": 1499796,
+    "selected": 736399,
+    "predicted": 701019,
+    "missing": 61333,
+    "extra": 25953,
+    "iou": 0.8855043339559678,
+    "areaIou": 0.893022994917161,
+    "selectedCoverage": 0.9249480035880215,
+    "predictedPrecision": 0.9627881056741407,
+    "method": "centroid-all-faces-area-weighted",
+    "areaSpace": "local"
+  },
+  "selectionOptimization": {
+    "offset": -0.025,
+    "baselineTrainingAreaIou": 0.8908234685514489,
+    "candidateTrainingAreaIou": 0.8931142012575699,
+    "baselineHeldOutAreaIou": 0.8906626808001247,
+    "candidateHeldOutAreaIou": 0.8926578029047268,
+    "trainingTriangles": 1199836,
+    "holdoutTriangles": 299960,
+    "baselineAreaIou": 0.8907913391356327,
+    "candidateAreaIou": 0.893022994917161,
+    "accepted": true,
+    "fallback": false,
+    "evaluation": "training-area-selection-with-untouched-heldout-report"
+  }
+}

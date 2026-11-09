@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "casos": "node tests/casos/generar.mjs"
+  },
+  "name": "bisturi-3d"
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "bisturi.curved-surface.v1",
+  "coefficients": [
+    -13.54175071771993,
+    -0.24080344109143,
+    51.611603856638624,
+    14.901520864104624,
+    -30.22778535466937,
+    -50.37326811082045,
+    7.092351780157719,
+    31.08439855961768,
+    -7.288450379525516,
+    14.88021008530514
+  ],
+  "axis": 2,
+  "method": "reference",
+  "description": "Superficie aproximada del STL de referencia; solo para esa geometría en sus coordenadas originales.",
+  "bounds": {
+    "min": [
+      -0.3536910116672516,
+      -0.2665019631385803,
+      -5.935947289259502e-9
+    ],
+    "max": [
+      0.34654501080513,
+      0.4015430510044098,
+      0.9957000017166138
+    ]
+  },
+  "sourceFingerprint": "13498164:0:c44bc9fa"
+}
